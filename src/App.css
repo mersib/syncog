@@ -19,9 +19,11 @@
 }
 
 .bgPic{
-  background-image: url(../public/bg1.jpg);
+  background-image: url(../public/bgUse1.png);
+  object-fit: cover;
 }
 
 .bgPic2{
-  background-image: url(../public/bg2.jpg);
+  background-image: url(../public/bgUse2.png);
+  object-fit: cover;
 }

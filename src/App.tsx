@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="videoSection">
         <video autoPlay muted loop className="fullscreen-video">
-          <source src="landingBg.mp4" type="video/mp4" />
+          <source src="bgVideo3.mp4" type="video/mp4" />
           Your device does not support playing 'video/mp4' videos
         </video>
       </div>
@@ -38,22 +38,23 @@ function App() {
         <div></div>
         <div className="pl-6 sm:pl-0">
           <div className="text-3xl md:text-5xl font-poppins pt-80 md:pt-64 pr-20 pr-6 md:pr-20 text-slate-50 ">
-            Step into History, Learn from Legends.
+            Future-proof your educational strategy
           </div>
           <div className="text-2xl md:text-4xl font-poppins pt-6 pb-36 pr-6 md:pr-20 text-slate-50">
-            Engage with historical figures like never before, enhancing your
-            learning journey through interactive, lifelike encounters.
+          You are right to be concerned about the coming A.I. world.  We were.  
+          That’s why we built a learning platform to help you understand it, learn from it, and be better than it.
           </div>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 md:h-screen">
         <div>
           <div className="text-2xl lg:text-5xl font-poppins pt-32 md:px-28 uppercase text-sky-500 pl-6 sm:pl-0">
-            Become Part of Our Vision and Transform Learning
+            Learn about AI. <br/> Learn from AI. <br/> Be better than AI.
           </div>
           <div className="text-xl lg:text-2xl font-poppins pt-12 md:px-28 pl-6 sm:pl-0 sm:pr-0 pr-6">
-            Can’t find the right role for you? We’d love to hear how your unique
-            skills and passion can help shape the future of education.
+          Get the educational edge your student needs, in a highly competitive world. Sound interesting...?
+          <br/>
+          ⁠Fast forward your mind, and take charge of your futurer
           </div>
           <div className="mx-28 my-12">
             <a
