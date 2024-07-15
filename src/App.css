@@ -6,6 +6,7 @@
   min-height: 100vh;
   max-height: 100vh;
   /* background: #000; */
+  z-index: -99 !important;
   overflow-x: hidden !important;
 }
 .fullscreen-video {
@@ -19,11 +20,77 @@
 }
 
 .bgPic{
-  background-image: url(../public/bgUse1.png);
+  background-color: black;
   object-fit: cover;
 }
 
 .bgPic2{
-  background-image: url(../public/bgUse2.png);
+  background-image: url(../public/horizon.jpg);
   object-fit: cover;
+}
+
+.logo-container{
+  height: 25%;
+}
+.logo-container-blue{
+  height: 100%;
+  width: 100%;
+}
+.logo-container-medium{
+  height: 25%;
+  width: 50%;
+}
+
+.custombg{
+  background-color: #09164c;
+}
+
+.customTextColor{
+  color: #09164c;
+}
+
+.position-container{
+  background-image: url(../public/mtBlanc.jpg);
+  object-fit: cover;
+}
+
+.customInput{
+  width: 20rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: black;
+  padding-left: 12px;
+}
+
+.customButton{
+  width: 20rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.customButtonBlueOut{
+  width: 20rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  outline: 2px solid #09164c;
+  background-color: #b3b2b0;
+  border-radius: 5px;
+  color: #09164c !important;
+}
+
+.customButtonWhiteOut{
+  width: 20rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  outline: 2px solid white;
+  border-radius: 5px;
+}
+
+.customLink{
+  color:#0097a7;
+
 }
