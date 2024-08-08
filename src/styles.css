@@ -1,0 +1,397 @@
+@import 'https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap';
+@import 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir', sans-serif;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.transparent-header {
+  /* background: rgba(255, 255, 255, 0.6); */
+}
+
+.font-avenir {
+  font-family: 'Avenir', sans-serif;
+}
+
+.font-syncopate {
+  font-family: 'Syncopate', sans-serif;
+}
+
+.group:hover .group-hover\\:opacity-100 {
+  opacity: 1;
+}
+
+.group:hover .group-hover\\:translate-x-2 {
+  transform: translateX(0.5rem);
+}
+
+.future-section {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.left-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-section img {
+  max-width: 30%; /* 60% of the original size */
+  max-height: 30%; /* 60% of the original size */
+}
+
+.right-section {
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+    text-align: left;
+    
+    line-height: 1.75rem; /* Increased line height */
+  }
+  
+  .text-container .title {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700; /* Made the font bold */
+  }
+  
+  .roles-section {
+    background-color: black;
+    color: white;
+    height: 100vh; /* Ensure the section takes the full height of the screen */
+    display: flex;
+  }
+  
+  /* .left-section, .right-section {
+    height: 100%; 
+  } */
+  
+  .contact-button {
+    transition: all 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .right-section {
+    overflow-y: auto; /* Make the right section scrollable */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .role h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .divider {
+    border: 1px solid white;
+    width: 100%;
+  }
+
+  .roles-section {
+    background-color: black;
+    height: 100vh; /* Ensure the section takes the full height of the screen */
+    display: flex;
+  }
+  
+  .left-section {
+   
+  }
+  .left-section-roles{
+    background-color: white;
+    color: #09164c;
+  }
+  .right-section {
+    
+    overflow-y: auto; /* Make the right section scrollable */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .right-section-roles {
+    background-color: #09164c;
+  }
+  
+  .text-title {
+    color: #09164c;
+  }
+  
+  .text-text-normal {
+    color: #09164c;
+  }
+  
+  .contact-button {
+    transition: all 0.3s ease;
+    background-color: #09164c;
+    color: white;
+    border: 4px solid #bcbcbc;
+    border-radius: 5px;
+  }
+  
+  .contact-button:hover {
+    background-color: #09164c;
+    color: white;
+  }
+  
+  .role h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .divider {
+    border: 1px solid white;
+    width: 100%;
+  }
+
+  /* ApplySection Styles */
+.apply-section {
+  display: flex;
+  /* height: calc(100vh - 150px); Adjust height accounting for header and footer */
+  background-image: url(../public/mtBlanc.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.apply-left {
+  flex: 1;
+  /* No additional styles needed for background image */
+}
+
+.apply-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    background-color: transparent; /* Ensure no background color */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: left;
+}
+form {
+    width: 100%; /* Default width */
+  }
+  
+  form label {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: #000; /* Ensure the label text color contrasts with background */
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for inputs */
+    color: #000; /* Black text color */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .upload-button, .send-button {
+    display: block;
+    background-color: white;
+    border: 2px solid white;
+    color: #09164c;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover, .send-button:hover {
+    background-color: white;
+    color: #09164c;
+  }
+  
+  .interest-text {
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  /* Footer Styles */
+.footer {
+    height: var(--footer-height);
+  }
+  
+  .footer-left p, .footer-right p {
+    margin: 0.25rem 0;
+  }
+  
+  .footer-left {
+    text-align: left;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .footer-center {
+    flex-grow: 1;
+  }
+
+  .horizon-section {
+    background-image: url(../public/horizon.jpg); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .font-syncopate {
+    font-family: 'Syncopate', sans-serif;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .pt-8 {
+    padding-top: 2rem;
+  }
+  
+  .pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .horizon-section{
+    height: 50vh;
+  }
+
+  @media (max-width: 768px) {
+    .future-section {
+      flex-direction: column;
+    }
+  
+    .left-section, .right-section {
+      width: 100%;
+    }
+  
+    .left-section img {
+      max-width: 30%; /* Adjusted for smaller screens */
+      max-height: 30%; /* Adjusted for smaller screens */
+      padding-top: 32px;
+    }
+  
+    .text-container {
+      line-height: 2rem; /* Adjusted for smaller screens */
+    }
+    .roles-section {
+        flex-direction: column;
+      }
+    
+      .roles-section > div {
+        width: 100%;
+        padding: 2rem;
+      }
+    
+      .px-20 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+    
+      
+
+      .roles-section {
+        flex-direction: column;
+      }
+    
+      .roles-section > div {
+        width: 100%;
+        padding: 2rem;
+      }
+    
+      .px-20 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+    
+     
+
+      .apply-section {
+        flex-direction: column;
+      }
+    
+      .apply-left, .apply-right {
+        width: 100%;
+      }
+    
+      .apply-left {
+        display: none; /* Hide the left section on mobile */
+      }
+    
+      .apply-right {
+        padding: 2rem;
+      }
+}
+
+@media (min-width: 1024px) {
+    form {
+      width: 50%; /* Half the width of the container on large screens */
+    }
+  }
+
+  @media (max-width: 640px) {
+    .left-section img {
+        max-width: 40%;
+        max-height: 40%;
+        padding-top: 24px;
+    }
+    .upload-button, .send-button {
+        width: 100%;
+    }
+    /* 
+    .left-section{
+        height:50%
+    }
+    .right-section {
+        overflow-y: visible; 
+        padding-left: 5%;
+        padding-right: 5%;
+      } */
+  }

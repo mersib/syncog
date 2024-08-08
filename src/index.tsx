@@ -8,14 +8,23 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Positions from './Positions';
+import Content from './Content';
+import ApplySection from './ApplySection';
+import JobsPage from './JobsPage';
 const router = createBrowserRouter([
   {
     path: "/",
+    // element: <App />,
+    element:<Content />
+  },
+  {
+    path: "/app",
     element: <App />,
+    // element:<Content />
   },
   {
     path: "/open-positions",
-    element: <Positions />,
+    element: <JobsPage />,
   },
 ]);
 

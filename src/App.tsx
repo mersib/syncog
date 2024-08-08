@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="videoSection">
-        <video autoPlay muted loop className="fullscreen-video z-0">
+        <video playsInline autoPlay muted loop className="fullscreen-video z-0">
           <source src="bgVideo3.mp4" type="video/mp4" />
           Your device does not support playing 'video/mp4' videos
         </video>
@@ -17,18 +17,18 @@ function App() {
       <div className="fullscreen-video">
         <div className="flex flex-col h-screen gap-y-96 ">
           <div className="flex  md:flex-row flex-col  md:justify-between lg:pt-20 sm:pt-6 pt-24">
-            <div>
+            {/* <div>
               <img
                 src={logo}
                 alt="Logo"
-                className="logo-container md:pl-20 sm:pl-2 pl-0"
+                className="logo-container md:pl-20 sm:pl-2 mx-auto"
               />
               <div className="md:pl-24 sm:pl-2 pl-0 lg:text-xl text-slate-200 font-poppins text-center sm:text-left pt-6 sm:pt-0 font-bold">
                 SYNCOG.AI
               </div>
-            </div>
+            </div> */}
             <div className="lg:text-xl text-slate-200 font-poppins text-center sm:text-left pt-6 sm:pt-5">
-              FULL SITE COMING SOON
+            SYNCOG.AI
             </div>
             <div className="md:pr-20 sm:pr-2 pr-0 lg:text-xl text-slate-200 font-poppins text-center sm:text-end pt-6 sm:pt-0 z-50">
             <Link to="/open-positions" className="z-50" relative="path">
@@ -53,7 +53,7 @@ function App() {
           />
         </div>
         <div className="pl-6 sm:pl-0">
-          <div className="text-2xl md:text-4xl font-poppins pt-80 md:pt-64 pr-20 pr-6 md:pr-20 text-slate-50 ">
+          <div className="text-xl md:text-4xl font-poppins pt-80 md:pt-64 pr-20 pr-6 md:pr-20 text-slate-50 ">
             Future-proof your educational strategy
           </div>
           <div className="text-xl md:text-xl font-poppins pt-6 pb-36 pr-6 md:pr-20 text-slate-50">
@@ -153,10 +153,10 @@ function App() {
         </div>
       </div>
       <div className="flex flex-col bgPic2 bg-cover bg-center">
-        <div className="text-2xl md:text-4xl font-poppins pt-32 pl-12 md:pr-0 pr-12 md:pl-20 pb-24 text-slate-100 text-center">
+        <div className="text-xl md:text-4xl font-poppins pt-32 pl-12 md:pr-0 pr-12 md:pl-20 pb-24 text-slate-100 text-center">
           DO YOU NEED A NEW HORIZON?
         </div>
-        <div className="text-2xl md:text-4xl font-poppins pt-32 pl-12 md:pr-0 pr-12 md:pl-20 pb-32 text-slate-100 text-center">
+        <div className="text-xl md:text-4xl font-poppins pt-32 pl-12 md:pr-0 pr-12 md:pl-20 pb-32 text-slate-100 text-center">
           Open and Scale yourself through deep connections with the past,
           present, and future.
         </div>
