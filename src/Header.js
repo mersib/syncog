@@ -17,7 +17,7 @@ const Header = () => {
           SYNCOG.AI
         </Link>
       </div>
-      <div><img src={logo} alt="Logo" className="w-24 hidden md:block" /></div>
+     {location.pathname === '/open-positions' && <div><img src={logo} alt="Logo" className="w-24 hidden md:block" /></div>}
       <div className="hidden md:block text-right font-avenir relative pr-8">
         {location.pathname === "/open-positions" ? (
           <div className="hidden md:block text-right font-avenir relative pr-8">
