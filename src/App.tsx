@@ -38,7 +38,7 @@ function App() {
             </div>
           </div>
           <div className="flex justify-between ">
-            <div className="pl-0 sm:pl-20 sm:pl-2 md:pl-16 text-5xl lg:text-5xl text-slate-200 font-poppins text-center w-screen">
+            <div className="pl-0 sm:pl-20 sm:pl-2 md:pl-16 text-6xl pb-24 lg:text-6xl text-slate-200 font-poppins text-center w-screen">
               Scale Every Human for the New A.I. World.
             </div>
           </div>

@@ -15,7 +15,7 @@ const RolesSection = () => {
           Get more than the educational edge you need to compete in an AI world. An edge will not be enough. As AI scales, so too must you. What do you think you need? <br />
           Join our Team?
         </p>
-        <Link to="/contact">
+        <Link to="/open-positions">
           <button className="contact-button text-title border-title border-2 px-4 py-2 rounded-md">
             Contact Us
           </button>

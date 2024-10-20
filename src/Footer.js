@@ -16,7 +16,7 @@ const Footer = ({ isWhite }) => {
       </div>
       <div className="footer-center"></div>
       <div className="footer-right">
-        <p>General Inquiries: contact@syncog.ai</p>
+        <p>General Inquiries: contact (at) syncog.ai</p>
       </div>
     </footer>
   );
